@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.main{
+    background-image: url(./images/42bb78c1f0aff0b0090554f26d2d9a5a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+   
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(204, 204, 255);
+    border: 1px transparent solid;
+}
+
+.logo{
+    margin-left: 70px;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+}
+.navbar{
+    margin-right: 70px;
+}
+.hero{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: 80vh;
+    margin-left: 80px;
+}
+
+i{
+    color: rgb(212, 212, 53);
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 80px;
+    background-color: rgb(213, 228, 228);
+    padding: 20px;
+}
+
+.know{
+    /* margin: 20px; */
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   flex-direction: row;
+    height: 50vh;
+}
+
+footer{
+    height: 250px;
+    width: 100%;
+  
+}
+
+.sign_up{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.text{
+    margin-left: 50px;
+}
+
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.foot{
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot .brands{
+    margin-right: 80px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 500px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    gap: 15px;
+    
+}
+
+form input{
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.Text{
+    height: 400px;
+    width: 400px;
+    margin-left: 300px;
+    background-color: white;
+}
+
+.location{
+    padding: 30px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-right: 140px;
+    gap: 50px;
+
+}
+
+.blog {
+    display: flex;
+    gap: 40px;
+  }
+
+  .blog .img{
+    padding: 5px;
+  }
+  
+ 
